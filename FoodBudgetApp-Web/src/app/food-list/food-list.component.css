@@ -1,0 +1,58 @@
+.food-list-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .food-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .food-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .food-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .food-info h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .food-info p {
+    margin: 2px 0;
+    color: #777;
+  }
+  
+  .add-to-plan-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-plan-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,15 +1,14 @@
-<div>
-    <h2>Create your meal plan</h2>
-    <div *ngFor="let food of foodPlan">
-      <div class="food-details">
-        <img [src]="food.image" alt="{{food.name}}">
-        <div>
-          <h4>{{food.name}}</h4>
-          <p>{{food.kcal}} kcal</p>
-          <p>{{food.price}}</p>
-        </div>
+<div class="meal-plan-container">
+  <h2>Create your meal plan</h2>
+  <div *ngFor="let food of foodPlan" class="food-plan-item">
+    <div class="food-details">
+      <img [src]="food.image" alt="{{food.name}}" class="food-image">
+      <div class="food-info">
+        <h4>{{food.name}}</h4>
+        <p>{{food.kcal}} kcal</p>
+        <p>{{food.price}}</p>
       </div>
     </div>
-    <button (click)="createMeal()">Create new meal</button>
   </div>
-  
+  <button class="create-meal-button" (click)="createMeal()">Create new meal</button>
+</div>
