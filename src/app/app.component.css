@@ -1,0 +1,27 @@
+.container-fluid {
+    padding: 0;
+  }
+  
+  .nav {
+    background-color: #f8f9fa;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .food-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .food-details {
+    display: flex;
+  }
+  
+  .food-details img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
